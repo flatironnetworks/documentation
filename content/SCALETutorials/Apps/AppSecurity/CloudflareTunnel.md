@@ -113,6 +113,7 @@ For example, if you don't use a subdomain, but a path like *example.com/nextclou
 If you want to access your application via subdomain (shown in this guide) two environment variables must be set in the Nextcloud application: [overwrite.cli.url](https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/config_sample_php_parameters.html#overwrite-cli-url) and [overwritehost](https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/config_sample_php_parameters.html#overwritehost).
 
 Enter the two environment variables in **Name** as *OVERWRITECLIURL* and *OVERWRITEHOST*.
+If you do not have a certificate installed, you will also need to enter *OVERWRITEPROTOCOL* and set that value to "https".
 
 Enter the address for the Cloudflare Tunnel, configured above in **Value**, for example *nextcloud.example.com*.
 
